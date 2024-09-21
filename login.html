@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AteaseVITIAN - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Section with Logo and Name -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="AteaseVITIAN Logo">
+            <span class="logoname">AteaseVITIAN</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Section -->
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login to AteaseVITIAN</h2>
+            <button id="google-login" class="google-login-btn">Login with Google</button>
+        </div>
+    </div>
+
+    <!-- Services Section in Header -->
+    <section class="services">
+        <h3>Our Services</h3>
+        <div class="service-cards">
+            <div class="service-card">
+                <h4>Service 1</h4>
+                <p>Details about service 1.</p>
+            </div>
+            <div class="service-card">
+                <h4>Service 2</h4>
+                <p>Details about service 2.</p>
+            </div>
+            <div class="service-card">
+                <h4>Service 3</h4>
+                <p>Details about service 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="login.js"></script>
+
+</body>
+
+</html>

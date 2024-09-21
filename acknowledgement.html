@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Acknowledgment Form</title>
+    <link rel="stylesheet" href="acknowledgement.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, <span id="displayName"></span>!</h1> <!-- Display user's name -->
+    </header>
+
+    <div class="container">
+        <h1>Student Information Form</h1>
+        <form id="studentForm">
+            <label for="formUser">User Name:</label>
+            <input type="text" id="formUser" name="user" required readonly><br>
+
+            <label for="regNo">Registration Number:</label>
+            <input type="text" id="regNo" name="regNo" required><br>
+
+            <label for="course">Programme:</label>
+            <input type="text" id="course" name="course" required><br>
+
+            <label for="semester">Semester Completed:</label>
+            <input type="number" id="semester" name="semester" required><br>
+
+            <label for="totalCredits">Total Credits Completed:</label>
+            <input type="number" id="totalCredits" name="totalCredits" required><br>
+
+            <label for="cgpa">CGPA:</label>
+            <input type="number" step="0.01" id="cgpa" name="cgpa" required><br>
+
+            <label for="expectedCredits">Expected Credits this Semester:</label>
+            <input type="number" id="expectedCredits" name="expectedCredits" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="acknowledgment" class="hidden">
+            <h2>Acknowledgment</h2>
+            <p id="ackMessage"></p>
+        </div>
+    </div>
+
+    <script type="module" src="acknowledgement.js"></script>
+</body>
+</html>

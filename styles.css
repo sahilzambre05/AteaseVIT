@@ -1,0 +1,190 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Navbar styles */
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: rgb(151, 143, 143);
+
+}
+
+/* Auth Container */
+.auth-container {
+    display: flex;
+}
+
+.auth-container .login-btn,
+.auth-container .signup-btn {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container .login-btn:hover,
+.auth-container .signup-btn:hover {
+    background-color: rgb(151, 143, 143);
+}
+.edit{
+    width: 100%;
+}
+.disclaimer-container {
+    background-color: #f8f9fa; /* Light background for distinction */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+.disclaimer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.disclaimer-container h3, 
+.disclaimer-container h4 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.disclaimer-container p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contact-info, .social-media, .license-info {
+    margin-bottom: 15px;
+}
+
+.social-media a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.license-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.license-info a:hover {
+    text-decoration: underline;
+}
+.div {
+    width: 100%;
+    height: 800px;
+    margin-top: -1%;
+    background-color: rgb(32, 32, 32);
+}
+.work{
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-style: oblique;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.work::first-letter{
+    font-size: 50px;
+    color: grey;
+    
+}
+.a{
+    width: 100%;
+    text-align: center;
+    height: 470px;
+    background-color: rgb(217, 228, 241);
+}
+h1{
+    padding-top: 50px;
+}
+.b{
+    background-color: rgb(245, 225, 10);
+    height: 220px;
+    border-radius: 20px;
+    width: 25%;
+    margin-left: 10.5%;
+    float: left;
+    margin-top: 30px;
+    transition: 1s ease;
+}
+.b:hover{
+    height: 290px;
+    transition: 1s ease;
+}
+.c{
+    background-color: green;
+    height: 220px;
+    border-radius: 20px;
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 30px;
+    transition: 1s ease;
+}
+.c:hover{
+    height: 290px;
+    transition: 1s ease;
+}
+.d{
+    background-color: rgb(245, 225, 10);
+    height: 220px;
+    border-radius: 20px;
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 30px;
+    transition: 1s ease;
+}
+.d:hover{
+    height: 290px;
+    transition: 1s ease;
+}
